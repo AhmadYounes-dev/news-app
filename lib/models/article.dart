@@ -7,7 +7,6 @@ class Article {
   final String sourceName;
   final String? author;
   
-
   Article(
       {required this.description,
       required this.title,

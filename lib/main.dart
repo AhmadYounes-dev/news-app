@@ -5,13 +5,15 @@ import 'package:provider/provider.dart';
 import 'package:news_app/services/news_services.dart';
 
 
+
 Future<void> main() async {
   await dotenv.load(fileName: '.env');
-  print('API Key: ${dotenv.env['GNEWS_API_KEY']}');
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Provider(
@@ -21,7 +23,7 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primarySwatch: Colors.blue,
         ),
-        home: HomeScreen(),
+        home: const HomeScreen(),
       ),
     );
   }

@@ -4,9 +4,11 @@ import 'package:flutter/material.dart';
 class SearchBarWidget extends StatefulWidget {
   final Function(String) onSearch;
 
-  SearchBarWidget({required this.onSearch});
+  const SearchBarWidget({super.key, required this.onSearch});
+  
 
   @override
+  // ignore: library_private_types_in_public_api
   _SearchBarWidgetState createState() => _SearchBarWidgetState();
 }
 
@@ -22,7 +24,7 @@ class _SearchBarWidgetState extends State<SearchBarWidget> {
         decoration: InputDecoration(
           labelText: 'Search news',
           suffixIcon: IconButton(
-            icon: Icon(Icons.search),
+            icon: const Icon(Icons.search),
             onPressed: () {
               widget.onSearch(_searchController.text);
             },

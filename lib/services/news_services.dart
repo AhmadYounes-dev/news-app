@@ -3,6 +3,7 @@ import "package:http/http.dart" as http;
 import "package:flutter_dotenv/flutter_dotenv.dart";
 
 
+
 class NewsService {
   static const String _baseUrl = 'https://gnews.io/api/v4';
 

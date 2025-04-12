@@ -1,4 +1,4 @@
-#Sat Apr 12 16:59:46 EEST 2025
+#Sat Apr 12 19:00:51 EEST 2025
 base.0=X\:\\Flutter_Projects\\news_app\\build\\app\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 base.1=X\:\\Flutter_Projects\\news_app\\build\\app\\intermediates\\dex\\debug\\mergeLibDexDebug\\0\\classes.dex
 base.2=X\:\\Flutter_Projects\\news_app\\build\\app\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
