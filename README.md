@@ -1,16 +1,22 @@
-# news_app
+# 📰 News Mobile App (Flutter)
 
-A new Flutter project.
+A Flutter mobile app that shows the latest news, search bar to search for a specific news.
+Uses GNEWS API, and http requests for real-time fetching. 
 
-## Getting Started
+/////////
 
-This project is a starting point for a Flutter application.
+## 🛠 Setup Instructions
 
-A few resources to get you started if this is your first Flutter project:
+# 1. Clone the Repository (Write these commands in VS Code terminal)
+### git clone https://github.com/AhmadYounes-dev/news-app.git
+### cd news-app ////(change directory so the terminal can work inside this project)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# 2. Install dependencies
+### flutter pub get
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# 3. add the .env file to the .gitignore root file
+
+# 4. create the .env file at the root of the file ( same level as pubspec.yaml and .gitignore ) 
+### Add to this file the GNEWS API as: GNEWS_API_KEY=your_actual_api_key 
+
+# 5. Run and Debug the app
