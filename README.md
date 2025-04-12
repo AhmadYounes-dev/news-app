@@ -9,7 +9,7 @@ Uses GNEWS API, and http requests for real-time fetching.
 
 # 1. Clone the Repository (Write these commands in VS Code terminal)
 ### git clone https://github.com/AhmadYounes-dev/news-app.git
-### cd news-app ////(change directory so the terminal can work inside this project)
+### cd news-app 
 
 # 2. Install dependencies
 ### flutter pub get
