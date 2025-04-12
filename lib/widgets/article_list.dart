@@ -8,7 +8,6 @@ class ArticleList extends StatelessWidget {
 
   const ArticleList({super.key, required this.articles});
 
-
   @override
   Widget build(BuildContext context) {
     return ListView.builder(

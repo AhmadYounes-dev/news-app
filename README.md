@@ -11,6 +11,7 @@ Uses GNEWS API, and http requests for real-time fetching.
 ### git clone https://github.com/AhmadYounes-dev/news-app.git
 ### cd news-app 
 
+
 # 2. Install dependencies
 ### flutter pub get
 
