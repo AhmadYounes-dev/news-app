@@ -14,9 +14,9 @@ Uses GNEWS API, and http requests for real-time fetching.
 # 2. Install dependencies
 ### flutter pub get
 
-# 3. add the .env file to the .gitignore root file
+# 3. add .env code line to the .gitignore root file
 
-# 4. create the .env file at the root of the file ( same level as pubspec.yaml and .gitignore ) 
-### Add to this file the GNEWS API as: GNEWS_API_KEY=your_actual_api_key 
+# 4. create .env file at the root of the project ( same level as pubspec.yaml and .gitignore ) 
+### Add the GNEWS API as: GNEWS_API_KEY=your_actual_api_key 
 
 # 5. Run and Debug the app
