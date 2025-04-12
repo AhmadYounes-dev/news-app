@@ -7,6 +7,7 @@ import 'package:news_app/services/news_services.dart';
 
 Future<void> main() async {
   await dotenv.load(fileName: '.env');
+  print('API Key: ${dotenv.env['GNEWS_API_KEY']}');
   runApp(MyApp());
 }
 
