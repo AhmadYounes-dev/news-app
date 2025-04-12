@@ -13,6 +13,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Article> articles = [];
   bool isLoading = true;
+  
 
   @override
   void initState() {
