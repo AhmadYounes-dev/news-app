@@ -6,6 +6,7 @@ class Article {
   final String url;
   final String sourceName;
   final String? author;
+  
 
   Article(
       {required this.description,

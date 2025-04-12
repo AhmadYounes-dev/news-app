@@ -4,6 +4,7 @@ import 'package:news_app/screens/home_screen.dart';
 import 'package:provider/provider.dart';
 import 'package:news_app/services/news_services.dart';
 
+
 Future<void> main() async {
   await dotenv.load(fileName: '.env');
   runApp(MyApp());

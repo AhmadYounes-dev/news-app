@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class SearchBarWidget extends StatefulWidget {
   final Function(String) onSearch;
 

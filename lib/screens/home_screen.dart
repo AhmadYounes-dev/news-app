@@ -5,6 +5,7 @@ import 'package:news_app/services/news_services.dart';
 import 'package:news_app/widgets/article_list.dart';
 import 'package:news_app/widgets/search_bar.dart';
 
+
 class HomeScreen extends StatefulWidget {
   @override
   _HomeScreenState createState() => _HomeScreenState();
@@ -13,7 +14,7 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   List<Article> articles = [];
   bool isLoading = true;
-  
+
 
   @override
   void initState() {

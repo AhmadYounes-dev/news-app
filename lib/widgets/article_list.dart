@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:news_app/models/article.dart';
 import 'package:cached_network_image/cached_network_image.dart';
 
+
 class ArticleList extends StatelessWidget {
   final List<Article> articles;
 
